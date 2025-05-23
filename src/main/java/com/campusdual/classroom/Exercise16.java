@@ -6,11 +6,20 @@ public class Exercise16 {
 		Plane plane = new Plane("Boeing");
 		Tractor tractor = new Tractor(3500);
 
+		// Metodos de avion
 		plane.start();
-		tractor.start();
-
 		plane.fly();
+		plane.takeOff();
+		plane.land();
+		plane.stop();
+		plane.maintenance();
+
+		// Metodos de tractor
+		tractor.start();
 		tractor.forward();
+		tractor.backward();
+		tractor.stop();
+		tractor.maintenance();
 
 	}
 
